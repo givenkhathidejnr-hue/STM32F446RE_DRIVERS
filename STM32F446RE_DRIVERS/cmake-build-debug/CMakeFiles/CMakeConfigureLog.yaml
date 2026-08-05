@@ -1,0 +1,1004 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/"
+    searched_directories:
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.14.0-37-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/"
+    found: "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+      /build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/newlib/../../../newlib/libc/stdlib/exit.c:65:(.text+0x28): undefined reference to `_exit'
+      /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+      /build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/newlib/../../../newlib/libc/reent/writer.c:49:(.text+0x24): undefined reference to `_write'
+      /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      /build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/newlib/../../../newlib/libc/reent/sbrkr.c:51:(.text+0x18): undefined reference to `_sbrk'
+      /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+      /build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/newlib/../../../newlib/libc/reent/closer.c:47:(.text+0x18): undefined reference to `_close'
+      /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+      /build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/newlib/../../../newlib/libc/reent/readr.c:49:(.text+0x24): undefined reference to `_read'
+      /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      /build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/newlib/../../../newlib/libc/reent/lseekr.c:49:(.text+0x24): undefined reference to `_lseek'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/"
+    found: "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /home/khathide2005/Documents/Project_1/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ar"
+      - "ar"
+    candidate_directories:
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/"
+    found: "/bin/arm-none-eabi-ar"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/"
+    found: "/bin/arm-none-eabi-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-strip"
+      - "strip"
+    candidate_directories:
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/"
+    found: "/bin/arm-none-eabi-strip"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ld"
+      - "ld"
+    candidate_directories:
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/"
+    found: "/bin/arm-none-eabi-ld"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-nm"
+      - "nm"
+    candidate_directories:
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/"
+    found: "/bin/arm-none-eabi-nm"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/"
+    found: "/bin/arm-none-eabi-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/"
+    found: "/bin/arm-none-eabi-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/"
+    found: "/bin/arm-none-eabi-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/"
+    searched_directories:
+      - "/bin/arm-none-eabi-dlltool"
+      - "/usr/local/sbin/arm-none-eabi-dlltool"
+      - "/usr/local/bin/arm-none-eabi-dlltool"
+      - "/usr/sbin/arm-none-eabi-dlltool"
+      - "/usr/bin/arm-none-eabi-dlltool"
+      - "/sbin/arm-none-eabi-dlltool"
+      - "/usr/games/arm-none-eabi-dlltool"
+      - "/usr/local/games/arm-none-eabi-dlltool"
+      - "/snap/bin/arm-none-eabi-dlltool"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/arm-none-eabi-dlltool"
+      - "/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/sbin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/"
+    found: "/bin/arm-none-eabi-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/"
+    searched_directories:
+      - "/bin/arm-none-eabi-tapi"
+      - "/usr/local/sbin/arm-none-eabi-tapi"
+      - "/usr/local/bin/arm-none-eabi-tapi"
+      - "/usr/sbin/arm-none-eabi-tapi"
+      - "/usr/bin/arm-none-eabi-tapi"
+      - "/sbin/arm-none-eabi-tapi"
+      - "/usr/games/arm-none-eabi-tapi"
+      - "/usr/local/games/arm-none-eabi-tapi"
+      - "/snap/bin/arm-none-eabi-tapi"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/arm-none-eabi-tapi"
+      - "/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-13.2"
+      - "arm-none-eabi-gcc-ar-13"
+      - "arm-none-eabi-gcc-ar13"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/"
+    searched_directories:
+      - "/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ar-13.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-13.2"
+      - "/usr/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/sbin/arm-none-eabi-gcc-ar-13.2"
+      - "/usr/games/arm-none-eabi-gcc-ar-13.2"
+      - "/usr/local/games/arm-none-eabi-gcc-ar-13.2"
+      - "/snap/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/arm-none-eabi-gcc-ar-13.2"
+      - "/bin/arm-none-eabi-gcc-ar-13"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ar-13"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-13"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-13"
+      - "/usr/bin/arm-none-eabi-gcc-ar-13"
+      - "/sbin/arm-none-eabi-gcc-ar-13"
+      - "/usr/games/arm-none-eabi-gcc-ar-13"
+      - "/usr/local/games/arm-none-eabi-gcc-ar-13"
+      - "/snap/bin/arm-none-eabi-gcc-ar-13"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/arm-none-eabi-gcc-ar-13"
+      - "/bin/arm-none-eabi-gcc-ar13"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ar13"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar13"
+      - "/usr/sbin/arm-none-eabi-gcc-ar13"
+      - "/usr/bin/arm-none-eabi-gcc-ar13"
+      - "/sbin/arm-none-eabi-gcc-ar13"
+      - "/usr/games/arm-none-eabi-gcc-ar13"
+      - "/usr/local/games/arm-none-eabi-gcc-ar13"
+      - "/snap/bin/arm-none-eabi-gcc-ar13"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/arm-none-eabi-gcc-ar13"
+    found: "/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-13.2"
+      - "arm-none-eabi-gcc-ranlib-13"
+      - "arm-none-eabi-gcc-ranlib13"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/"
+    searched_directories:
+      - "/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/sbin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/usr/games/arm-none-eabi-gcc-ranlib-13.2"
+      - "/usr/local/games/arm-none-eabi-gcc-ranlib-13.2"
+      - "/snap/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/arm-none-eabi-gcc-ranlib-13.2"
+      - "/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-13"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-13"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/sbin/arm-none-eabi-gcc-ranlib-13"
+      - "/usr/games/arm-none-eabi-gcc-ranlib-13"
+      - "/usr/local/games/arm-none-eabi-gcc-ranlib-13"
+      - "/snap/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/arm-none-eabi-gcc-ranlib-13"
+      - "/bin/arm-none-eabi-gcc-ranlib13"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib13"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib13"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib13"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib13"
+      - "/sbin/arm-none-eabi-gcc-ranlib13"
+      - "/usr/games/arm-none-eabi-gcc-ranlib13"
+      - "/usr/local/games/arm-none-eabi-gcc-ranlib13"
+      - "/snap/bin/arm-none-eabi-gcc-ranlib13"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/arm-none-eabi-gcc-ranlib13"
+    found: "/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/khathide2005/Documents/Project_1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fVV0gV"
+      binary: "/home/khathide2005/Documents/Project_1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fVV0gV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/khathide2005/Documents/Project_1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fVV0gV'
+        
+        Run Build Command(s): /home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_0be0b
+        [1/2] /bin/arm-none-eabi-gcc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_0be0b.dir/CMakeCCompilerABI.c.o -c /home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/bin/arm-none-eabi-gcc
+        Target: arm-none-eabi
+        Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:13.2.rel1-2 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile,aprofile ASFLAGS= ASFLAGS_FOR_BUILD= CFLAGS='-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wno-format -Wno-error=format-security -fcf-protection -fdebug-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=/usr/src/gcc-arm-none-eabi-15:13.2.rel1-2' 'CFLAGS_FOR_BUILD=-g -O2' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=3' CPPFLAGS_FOR_BUILD= CXXFLAGS='-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wno-format -Wno-error=format-security -fcf-protection -fdebug-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=/usr/src/gcc-arm-none-eabi-15:13.2.rel1-2' 'CXXFLAGS_FOR_BUILD=-g -O2' DFLAGS=-frelease DFLAGS_FOR_BUILD=-frelease FCFLAGS='-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -fcf-protection -fdebug-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=/usr/src/gcc-arm-none-eabi-15:13.2.rel1-2' 'FCFLAGS_FOR_BUILD=-g -O2' FFLAGS='-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -fcf-protection -fdebug-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=/usr/src/gcc-arm-none-eabi-15:13.2.rel1-2' 'FFLAGS_FOR_BUILD=-g -O2' LDFLAGS='-Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -Wl,-z,relro' LDFLAGS_FOR_BUILD= OBJCFLAGS='-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wno-format -Wno-error=format-security -fcf-protection -fdebug-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=/usr/src/gcc-arm-none-eabi-15:13.2.rel1-2' 'OBJCFLAGS_FOR_BUILD=-g -O2' OBJCXXFLAGS='-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wno-format -Wno-error=format-security -fcf-protection -fdebug-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=/usr/src/gcc-arm-none-eabi-15:13.2.rel1-2' 'OBJCXXFLAGS_FOR_BUILD=-g -O2' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip SED=/bin/sed SHELL=/bin/sh BASH=/bin/bash CONFIG_SHELL=/bin/bash
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.2.1 20231009 (15:13.2.rel1-2) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_0be0b.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_0be0b.dir/'
+         /usr/lib/gcc/arm-none-eabi/13.2.1/cc1 -quiet -v -D__USES_INITFINI__ /home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0be0b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o /tmp/cciqcKur.s
+        GNU C17 (15:13.2.rel1-2) version 13.2.1 20231009 (arm-none-eabi)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/sys-include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/arm-none-eabi/13.2.1/include
+         /usr/lib/gcc/arm-none-eabi/13.2.1/include-fixed
+         /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: 3dedaaa4c0ce80076a39ed0b54adff9d
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_0be0b.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_0be0b.dir/'
+         /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_0be0b.dir/CMakeCCompilerABI.c.o /tmp/cciqcKur.s
+        GNU assembler version 2.42 (arm-none-eabi) using BFD version (2.42-1ubuntu1+23) 2.42
+        COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/13.2.1/:/usr/lib/gcc/arm-none-eabi/13.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/13.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/13.2.1/:/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_0be0b.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_0be0b.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /bin/arm-none-eabi-gcc  -v -Wl,-v CMakeFiles/cmTC_0be0b.dir/CMakeCCompilerABI.c.o -o cmTC_0be0b   && :
+        FAILED: cmTC_0be0b 
+        : && /bin/arm-none-eabi-gcc  -v -Wl,-v CMakeFiles/cmTC_0be0b.dir/CMakeCCompilerABI.c.o -o cmTC_0be0b   && :
+        Using built-in specs.
+        COLLECT_GCC=/bin/arm-none-eabi-gcc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/13.2.1/lto-wrapper
+        Target: arm-none-eabi
+        Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:13.2.rel1-2 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile,aprofile ASFLAGS= ASFLAGS_FOR_BUILD= CFLAGS='-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wno-format -Wno-error=format-security -fcf-protection -fdebug-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=/usr/src/gcc-arm-none-eabi-15:13.2.rel1-2' 'CFLAGS_FOR_BUILD=-g -O2' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=3' CPPFLAGS_FOR_BUILD= CXXFLAGS='-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wno-format -Wno-error=format-security -fcf-protection -fdebug-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=/usr/src/gcc-arm-none-eabi-15:13.2.rel1-2' 'CXXFLAGS_FOR_BUILD=-g -O2' DFLAGS=-frelease DFLAGS_FOR_BUILD=-frelease FCFLAGS='-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -fcf-protection -fdebug-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=/usr/src/gcc-arm-none-eabi-15:13.2.rel1-2' 'FCFLAGS_FOR_BUILD=-g -O2' FFLAGS='-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -fcf-protection -fdebug-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=/usr/src/gcc-arm-none-eabi-15:13.2.rel1-2' 'FFLAGS_FOR_BUILD=-g -O2' LDFLAGS='-Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -Wl,-z,relro' LDFLAGS_FOR_BUILD= OBJCFLAGS='-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wno-format -Wno-error=format-security -fcf-protection -fdebug-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=/usr/src/gcc-arm-none-eabi-15:13.2.rel1-2' 'OBJCFLAGS_FOR_BUILD=-g -O2' OBJCXXFLAGS='-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wno-format -Wno-error=format-security -fcf-protection -fdebug-prefix-map=/build/gcc-arm-none-eabi-TuTZN0/gcc-arm-none-eabi-13.2.rel1=/usr/src/gcc-arm-none-eabi-15:13.2.rel1-2' 'OBJCXXFLAGS_FOR_BUILD=-g -O2' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip SED=/bin/sed SHELL=/bin/sh BASH=/bin/bash CONFIG_SHELL=/bin/bash
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.2.1 20231009 (15:13.2.rel1-2) 
+        COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/13.2.1/:/usr/lib/gcc/arm-none-eabi/13.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/13.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/13.2.1/:/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0be0b' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'cmTC_0be0b.'
+         /usr/lib/gcc/arm-none-eabi/13.2.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSc9d06.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -X -o cmTC_0be0b /usr/lib/gcc/arm-none-eabi/13.2.1/crti.o /usr/lib/gcc/arm-none-eabi/13.2.1/crtbegin.o /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/crt0.o -L/usr/lib/gcc/arm-none-eabi/13.2.1 -L/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib -v CMakeFiles/cmTC_0be0b.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /usr/lib/gcc/arm-none-eabi/13.2.1/crtend.o /usr/lib/gcc/arm-none-eabi/13.2.1/crtn.o
+        collect2 version 13.2.1 20231009
+        /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld -plugin /usr/lib/gcc/arm-none-eabi/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSc9d06.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -X -o cmTC_0be0b /usr/lib/gcc/arm-none-eabi/13.2.1/crti.o /usr/lib/gcc/arm-none-eabi/13.2.1/crtbegin.o /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/crt0.o -L/usr/lib/gcc/arm-none-eabi/13.2.1 -L/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib -v CMakeFiles/cmTC_0be0b.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /usr/lib/gcc/arm-none-eabi/13.2.1/crtend.o /usr/lib/gcc/arm-none-eabi/13.2.1/crtn.o
+        GNU ld (2.42-1ubuntu1+23) 2.42
+        /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+        /build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/newlib/../../../newlib/libc/stdlib/exit.c:65:(.text+0x28): undefined reference to `_exit'
+        /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+        /build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/newlib/../../../newlib/libc/reent/writer.c:49:(.text+0x24): undefined reference to `_write'
+        /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+        /build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/newlib/../../../newlib/libc/reent/sbrkr.c:51:(.text+0x18): undefined reference to `_sbrk'
+        /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+        /build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/newlib/../../../newlib/libc/reent/closer.c:47:(.text+0x18): undefined reference to `_close'
+        /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+        /build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/newlib/../../../newlib/libc/reent/readr.c:49:(.text+0x24): undefined reference to `_read'
+        /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+        /build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/newlib/../../../newlib/libc/reent/lseekr.c:49:(.text+0x24): undefined reference to `_lseek'
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: /bin/arm-none-eabi-gcc"
+    directories:
+      source: "/home/khathide2005/Documents/Project_1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qN9jtR"
+      binary: "/home/khathide2005/Documents/Project_1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qN9jtR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/khathide2005/Documents/Project_1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qN9jtR'
+        
+        Run Build Command(s): /home/khathide2005/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_1b940
+        [1/2] /bin/arm-none-eabi-gcc   -fdiagnostics-color=always -o CMakeFiles/cmTC_1b940.dir/testCCompiler.c.o -c /home/khathide2005/Documents/Project_1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qN9jtR/testCCompiler.c
+        [2/2] : && /bin/arm-none-eabi-gcc   CMakeFiles/cmTC_1b940.dir/testCCompiler.c.o -o cmTC_1b940   && :
+        FAILED: cmTC_1b940 
+        : && /bin/arm-none-eabi-gcc   CMakeFiles/cmTC_1b940.dir/testCCompiler.c.o -o cmTC_1b940   && :
+        /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+        /build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/newlib/../../../newlib/libc/stdlib/exit.c:65:(.text+0x28): undefined reference to `_exit'
+        /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+        /build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/newlib/../../../newlib/libc/reent/writer.c:49:(.text+0x24): undefined reference to `_write'
+        /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+        /build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/newlib/../../../newlib/libc/reent/sbrkr.c:51:(.text+0x18): undefined reference to `_sbrk'
+        /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+        /build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/newlib/../../../newlib/libc/reent/closer.c:47:(.text+0x18): undefined reference to `_close'
+        /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+        /build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/newlib/../../../newlib/libc/reent/readr.c:49:(.text+0x24): undefined reference to `_read'
+        /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+        /build/newlib-38V0JC/newlib-4.4.0.20231231/build/arm-none-eabi/newlib/../../../newlib/libc/reent/lseekr.c:49:(.text+0x24): undefined reference to `_lseek'
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
